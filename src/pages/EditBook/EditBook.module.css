@@ -1,0 +1,29 @@
+.mainBody {
+  height: 90vh;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.headerTitle {
+  font-size: 35px;
+  font-weight: bold;
+  width: 90vw;
+  text-align: left;
+}
+
+.inputField {
+  width: 70%;
+}
+
+.formText {
+  height: 50px;
+  margin: 30px 0px;
+}
+
+.submitBtn {
+  background-color: #fa247d;
+  border: none;
+}

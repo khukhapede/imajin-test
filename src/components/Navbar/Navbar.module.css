@@ -1,0 +1,24 @@
+.main {
+  background: black;
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  flex: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.brand {
+  width: 145px;
+  filter: invert(100%);
+}

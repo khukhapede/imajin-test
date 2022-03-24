@@ -1,0 +1,58 @@
+.mainBody {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid rgb(196, 194, 194);
+  margin: 10px;
+  overflow: hidden;
+}
+
+.authorPic {
+  flex: 5;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.authorPic img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.authorName {
+  flex: 1;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.authorPhone {
+  flex: 1;
+}
+
+.btnDetail {
+  flex: 1;
+  margin-bottom: 5px;
+}
+
+.btnDet {
+  width: 150px;
+  height: 30px;
+  background: #fa247d;
+  display: inline-block;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.btnDet:hover {
+  cursor: pointer;
+}
+
+.btnDet:active {
+  background: #580d2c;
+}

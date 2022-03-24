@@ -1,0 +1,46 @@
+.mainBody {
+  height: 90vh;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.headerTitle {
+  font-size: 35px;
+  font-weight: bold;
+  width: 90vw;
+  text-align: left;
+}
+
+.table {
+  width: 70vw;
+  margin: 10px;
+}
+
+.loadingLogo {
+  margin-top: 160px;
+  height: 150px;
+  -webkit-animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.editBtn {
+  display: inline-block;
+  width: 100px;
+  background-color: #fa247d;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
