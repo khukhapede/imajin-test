@@ -1,11 +1,9 @@
 import { useQuery } from "react-query";
 import { API } from "../../config/api";
 import Styles from "./Landing.module.css";
-import React, { useState } from "react";
+import React from "react";
 import Cards from "../../components/Cards/Cards";
 import Masonry from "react-masonry-component";
-
-const loading = false;
 
 export default function Landing() {
   let api = API();
@@ -35,17 +33,14 @@ export default function Landing() {
             className={Styles.loadingLogo}
           />
         ) : (
-          <Masonry
-            options={masonryOptions}
-            elementType={"div"}
-          >
+          <Masonry options={masonryOptions} elementType={"div"}>
             {authorsData.map((author) => (
               <div key={author.id}>
                 <Cards
                   id={author.id}
                   name={author.name}
                   telp={author.telp}
-                  photo= {author.photo}
+                  photo={author.photo}
                 />
               </div>
             ))}
